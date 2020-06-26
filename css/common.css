@@ -1,0 +1,65 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  --accent-text-color: #757575;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+/* Site nav */
+.site-nav a {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.nav-contacts a {
+  color: var(--accent-text-color);
+}
+
+.nav-contacts a:hover,
+.nav-contacts a:focus {
+  color: var(--accent-color);
+}
+
+.section-title {
+  color: var(--primary-text-color);
+}
+/* Футер */
+.footer {
+  background-color: #2f303a;
+}
+.address-street {
+  color: var(--primary-bg-color);
+}
+.address a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-subtitle {
+  color: var(--primary-bg-color);
+}
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}

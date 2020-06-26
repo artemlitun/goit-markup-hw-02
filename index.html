@@ -5,27 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header class="header">
       <!-- Шапка сайта -->
-      <a class="logo" href="#">Web Studio</a>
-      <nav class="nav">
-        <ul class="nav-link">
+      <a class="logo link" href="#">Web Studio</a>
+      <nav>
+        <ul class="site-nav list">
           <li>
-            <a href="#">Студия</a>
+            <a class="link current" href="#">Студия</a>
           </li>
           <li>
-            <a href="#">Портфолио</a>
+            <a class="link" href="./portfolio.html">Портфолио</a>
           </li>
           <li>
-            <a href="#">Контакты</a>
+            <a class="link" href="#">Контакты</a>
           </li>
         </ul>
         <div>
           <address class="nav-contacts">
-            <a class="nav-mail" href="info@devstudio.com">info@devstudio.com</a>
-            <a class="nav-tel" href="tel:+38-096-111-11-11"
+            <a class="nav-mail link" href="info@devstudio.com"
+              >info@devstudio.com</a
+            >
+            <a class="nav-tel link" href="tel:+38-096-111-11-11"
               >+38 096 111 11 11</a
             >
           </address>
@@ -36,24 +40,30 @@
       <!-- Секция герой -->
 
       <section class="hero">
+        <img
+          src="./images/Header img.jpg"
+          alt="Люди в офисе"
+          width="696"
+          height=""
+        />
         <h1 class="hero-slogan">
           Эффективные решения для вашего бизнеса
         </h1>
-        <a class="button" href="#">Заказать услугу</a>
+        <a class="button link" href="#">Заказать услугу</a>
       </section>
       <!-- Секция преимущества -->
 
-      <section class="features">
+      <section class="section">
         <!-- <h2>Наши преимущества</h2> -->
-        <ul class="features-items">
+        <ul class="features-items list">
           <li>
             <img src="./images/icon1.svg" alt="Иконка" />
-            <img
+            <!-- <img
               src="./images/rectangle.jpg"
               alt="Прямоугольник"
               width="270"
               height="120"
-            />
+            /> -->
             <h3 class="features subtitle">Внимание к деталям</h3>
             <p class="features-text">
               Идейные соображения, а также начало повседневной работы по
@@ -62,12 +72,12 @@
           </li>
           <li>
             <img src="./images/icon2.svg" alt="Иконка" />
-            <img
+            <!-- <img
               src="./images/rectangle.jpg"
               alt="Прямоугольник"
               width="270"
               height="120"
-            />
+            /> -->
             <h3 class="features subtitle">Пунктуальность</h3>
             <p class="features-text">
               Задача организации, в особенности же рамки и место обучения кадров
@@ -76,12 +86,12 @@
           </li>
           <li>
             <img src="./images/icon3.svg" alt="Иконка" />
-            <img
+            <!-- <img
               src="./images/rectangle.jpg"
               alt="Прямоугольник"
               width="270"
               height="120"
-            />
+            /> -->
             <h3 class="features subtitle">Планирование</h3>
             <p class="features-text">
               Равным образом консультация с широким активом в значительной
@@ -90,12 +100,12 @@
           </li>
           <li>
             <img src="./images/icon4.svg" alt="Иконка" />
-            <img
+            <!-- <img
               src="./images/rectangle.jpg"
               alt="Прямоугольник"
               width="270"
               height="120"
-            />
+            /> -->
             <h3 class="features subtitle">Современные технологии</h3>
             <p class="features-text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -106,49 +116,49 @@
       </section>
       <!-- Секция чем мы занимаемся -->
 
-      <section class="about">
-        <h2 class="about title">Чем мы занимаемся</h2>
-        <ul class="about-items">
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="about-items list">
           <li>
-            <a href="#"
+            <a class="link" href="#"
               ><img
                 src="./images/img1.jpg"
                 alt="Экран ноутбука"
                 width="370"
                 height="294"
               />
-              <h3 class="about subtitle">Десктопные приложения</h3>
+              <h3 class="subtitle">Десктопные приложения</h3>
             </a>
           </li>
           <li>
-            <a href="#"
+            <a class="link" href="#"
               ><img
                 src="./images/img2.jpg"
                 alt="Смартфон"
                 width="370"
                 height="294"
               />
-              <h3 class="about subtitle">Мобильные приложения</h3>
+              <h3 class="subtitle">Мобильные приложения</h3>
             </a>
           </li>
           <li>
-            <a href="#"
+            <a class="link" href="#"
               ><img
                 src="./images/img3.jpg"
                 alt="Монитор компьютера"
                 width="370"
                 height="294"
               />
-              <h3 class="about subtitle">Дизайнерские решения</h3>
+              <h3 class="subtitle">Дизайнерские решения</h3>
             </a>
           </li>
         </ul>
       </section>
       <!-- Секция Наша команда -->
 
-      <section class="team">
-        <h2 class="team title">Наша команда</h2>
-        <ul class="team-item">
+      <section class="section team">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="team-item list">
           <li>
             <img
               src="./images/img4.jpg"
@@ -156,9 +166,9 @@
               width="270"
               height="260"
             />
-            <h3 class="team-name">John Smith</h3>
-            <p class="team-function">Product Designer</p>
-            <ul class="team-social">
+            <h3 class="name">John Smith</h3>
+            <p class="function">Product Designer</p>
+            <ul class="team-social list">
               <!-- Добавить иконки -->
               <li>
                 <img src="./images/instagram1.svg" alt="" />
@@ -185,9 +195,9 @@
               width="270"
               height="260"
             />
-            <h3 class="team name">Marta Stewart</h3>
-            <p class="team-function">Frontend Developer</p>
-            <ul class="team-social">
+            <h3 class="name">Marta Stewart</h3>
+            <p class="function">Frontend Developer</p>
+            <ul class="team-social list">
               <!-- Добавить иконки -->
               <li>
                 <img src="./images/instagram1.svg" alt="" />
@@ -214,9 +224,9 @@
               width="270"
               height="260"
             />
-            <h3 class="team name">Robert Jakis</h3>
-            <p class="team-function">Marketing</p>
-            <ul class="team-social">
+            <h3 class="name">Robert Jakis</h3>
+            <p class="function">Marketing</p>
+            <ul class="team-social list">
               <!-- Добавить иконки -->
               <li>
                 <img src="./images/instagram1.svg" alt="" />
@@ -243,9 +253,9 @@
               width="270"
               height="260"
             />
-            <h3 class="team name">Martin Doe</h3>
-            <p class="team-function">UI Designer</p>
-            <ul class="team-social">
+            <h3 class="name">Martin Doe</h3>
+            <p class="function">UI Designer</p>
+            <ul class="team-social list">
               <!-- Добавить иконки -->
               <li>
                 <img src="./images/instagram1.svg" alt="" />
@@ -269,62 +279,62 @@
       </section>
       <!-- Секция постоянные клиенты -->
 
-      <section class="clients">
-        <h2 class="clients title">Постоянные клиенты</h2>
-        <ul class="clients-items">
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul class="clients-items list">
           <li>
             <img src="./images/logo1.svg" alt="" />
-            <img
+            <!-- <img
               src="./images/rectangle-client.jpg"
               alt="Логотип компании"
               width="170"
               height="90"
-            />
+            /> -->
           </li>
           <li>
             <img src="./images/logo2.svg" alt="" />
-            <img
+            <!-- <img
               src="./images/rectangle-client.jpg"
               alt="Логотип компании"
               width="170"
               height="90"
-            />
+            /> -->
           </li>
           <li>
             <img src="./images/logo3.svg" alt="" />
-            <img
+            <!-- <img
               src="./images/rectangle-client.jpg"
               alt="Логотип компании"
               width="170"
               height="90"
-            />
+            /> -->
           </li>
           <li>
             <img src="./images/logo4.svg" alt="" />
-            <img
+            <!-- <img
               src="./images/rectangle-client.jpg"
               alt="Логотип компании"
               width="170"
               height="90"
-            />
+            /> -->
           </li>
           <li>
             <img src="./images/logo5.svg" alt="" />
-            <img
+            <!-- <img
               src="./images/rectangle-client.jpg"
               alt="Логотип компании"
               width="170"
               height="90"
-            />
+            /> -->
           </li>
           <li>
             <img src="./images/logo6.svg" alt="" />
-            <img
+            <!-- <img
               src="./images/rectangle-client.jpg"
               alt="Логотип компании"
               width="170"
               height="90"
-            />
+            /> -->
           </li>
         </ul>
       </section>
@@ -334,51 +344,51 @@
     <footer class="footer">
       <section class="contacts">
         <h3>Контакты</h3>
-        <a class="logo" href="#">Web Studio</a>
+        <a class="logo link" href="#">Web Studio</a>
         <address class="address">
-          г. Киев, пр-т Леси Украинки, 26 <br />
-          <a class="address-mail" href="info@devstudio.com"
+          <p class="address-street">г. Киев, пр-т Леси Украинки, 26 <br /></p>
+          <a class="address-mail link" href="info@devstudio.com"
             >info@devstudio.com <br
           /></a>
-          <a class="address-phone" href="tel:+38-096-111-11-11"
+          <a class="address-phone link" href="tel:+38-096-111-11-11"
             >+38 096 111 11 11</a
           >
         </address>
       </section>
 
-      <section class="footer-social">
+      <section class="footer">
         <h3>Социальные сети</h3>
         <p class="footer-subtitle"><em>Присоединяйтесь</em></p>
-        <ul>
+        <ul class="footer-social list">
           <!-- Добавить иконки -->
           <li>
-            <img src="./images/instagram1.svg" alt="" />
-            <a href="#"></a>
+            <a href="#">
+              <img src="./images/instagram1.svg" alt="" />
+            </a>
           </li>
           <li>
-            <img src="./images/twitter1.svg" alt="" />
-            <a href="#"></a>
+            <a href="#">
+              <img src="./images/twitter1.svg" alt="" />
+            </a>
           </li>
           <li>
-            <img src="./images/facebook1.svg" alt="" />
-            <a href="#"></a>
+            <a href="#">
+              <img src="./images/facebook1.svg" alt="" />
+            </a>
           </li>
           <li>
-            <img src="./images/linkedin1.svg" alt="" />
-            <a href="#"></a>
+            <a href="#">
+              <img src="./images/linkedin1.svg" alt="" />
+            </a>
           </li>
         </ul>
       </section>
 
-      <section>
+      <section class="footer">
         <h3>Подписка на рассылку</h3>
         <p class="footer-subtitle"><em>Подпишитесь на рассылку</em></p>
-        <a class="button" href="#">Подписаться</a>
+        <a href="#" class="button">Подписаться</a>
       </section>
-
-      <div>
-        <p class="copyright">2020 | Developed by GoIT Students</p>
-      </div>
     </footer>
   </body>
 </html>
