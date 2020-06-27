@@ -9,6 +9,7 @@
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
 }
 .list {
   list-style: none;
@@ -18,12 +19,20 @@ body {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   color: #2196f3;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /* Site nav */
 .site-nav a {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -36,6 +45,10 @@ body {
 
 .nav-contacts a {
   color: var(--accent-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-contacts a:hover,
@@ -45,21 +58,40 @@ body {
 
 .section-title {
   color: var(--primary-text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* Футер */
 .footer {
   background-color: #2f303a;
 }
+
 .address-street {
   color: var(--primary-bg-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
-.address a {
+.address-street a {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .footer-subtitle {
   color: var(--primary-bg-color);
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .button {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
 }

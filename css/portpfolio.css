@@ -1,4 +1,25 @@
+/* Навигация страницы */
 .page-nav a {
   background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
 }
+.page-nav a:hover,
+.page-nav a:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+/* <!-- Портфолио работ -- >  */
+
+.portfolio-title {
+  color: var(--primary-text-color);
+}
+
+.portfolio-text {
+  color: var(--accent-text-color);
+}
+/* .portfolio-items a:hover,
+.portfolio-items a:focus {
+  background-color: var(--accent-color);
+  --secondary-text-color: #ffffff;
+} */
