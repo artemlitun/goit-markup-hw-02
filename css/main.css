@@ -1,37 +1,61 @@
-/* Цвет основного текста #212121; */
-/* цвет второго основного текста #FFFFFF */
-/* цвет второстепенного текста #757575 */
-
-/* бекграунд футер #2F303A */
-/* бекграунд боди #FFFFFF */
-/* бекграунд вторичный боди #F5F4FA */
-
-/* цвет бекграунд кнопок #2196F3  */
-/* цвет ховер эффект иконок, кнопок #2196F3  */
 
 /* <!-- Секция герой --> */
 .hero-slogan {
-  /* color: var(--secondary-text-color); */
+/* color: var(--secondary-text-color); */
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+/* text-align: center; */
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 /* <!-- Секция преимущества --> */
+.features {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
 
 .features-text {
-  color: var(--accent-text-color);
+color: var(--accent-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
 }
 
 /* <!-- Секция чем мы занимаемся --> */
 
 .about-items .subtitle {
-  /* color: var(--secondary-text-color); */
+/* color: var(--secondary-text-color); */
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+/* text-align: center; */
+text-transform: uppercase;
 }
 
 /* <!-- Секция Наша команда --> */
 .team {
-  background-color: var(--secondary-bg-color);
+background-color: var(--secondary-bg-color);
+}
+
+.team-item .name{
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+/* text-align: center; */
+letter-spacing: 0.03em;
 }
 .team-item .function {
-  color: var(--accent-text-color);
+color: var(--accent-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+/* text-align: center; */
+letter-spacing: 0.03em;
 }
 
 /* <!-- Секция постоянные клиенты -->
