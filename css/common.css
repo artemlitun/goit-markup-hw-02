@@ -74,12 +74,16 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-
-.address-street {
+.footer .logo {
   color: var(--primary-bg-color);
+}
+
+.address .street {
+  color: var(--primary-bg-color);
+  font-style: normal;
   line-height: 1.71;
 }
-.address-street a {
+.address a {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
 }
